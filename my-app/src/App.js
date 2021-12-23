@@ -1,4 +1,4 @@
-//import { render } from '@testing-library/react';
+
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,7 +6,7 @@ import Contenu from './Contenu';
 import FormInputs from './FormInputs';
 import Picker from './Picker';
 import Bouton from './composants/Bouton';
- import Slideshow from './Slide';
+
 
 
 
@@ -40,9 +40,9 @@ class App extends Component {
         <hr className="hr" />
      
 
-        <div ><Slideshow /></div> 
-        <hr className="hr" />
-        <div >djfreh ghvkjdj </div>   
+       
+      
+          
         <hr className="hr" />
       </div>
     );
