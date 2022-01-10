@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contenu from './Contenu';
-import FormInputs from './FormInputs';
-import Picker from './Picker';
-import Bouton from './composants/Bouton';
+import Contenu from './composants/Contenu';
+import FormInputs from './composants/FormInputs';
+import Picker from './composants/Picker';
+import Bouton from './composants/Modal/Bouton';
 
 
 
@@ -27,7 +27,8 @@ class App extends Component {
         <br />
 
         <div className="App">
-          <p>Cliquez pour choisir vos dates</p>
+          <h3 style={{ fontWeight: 'bold' }}  >Cliquez pour choisir vos dates</h3>
+          <br /> <br />
           <Picker /></div>
 
         <br />

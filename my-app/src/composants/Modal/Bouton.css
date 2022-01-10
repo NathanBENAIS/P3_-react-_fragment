@@ -1,0 +1,11 @@
+.Bouton{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50% );
+    color: aliceblue;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
